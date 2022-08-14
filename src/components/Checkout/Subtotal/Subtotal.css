@@ -1,0 +1,21 @@
+.subtotal {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 400px;
+    height: 210px;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.subtotalCheckBox {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.subtotalCheckBox input {
+    margin-right: 5px;
+}
